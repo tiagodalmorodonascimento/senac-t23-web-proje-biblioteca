@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Biblioteca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-image: url();
+            padding: 15px;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            border: 1px solid silver;
+        }
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: rgb(156, 151, 151);
+            padding: 20px;
+
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            height: 300px;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .Materias {
+            height: 700px;
+            color: #777;
+            width: 150px;
+        }
+
+        img {
+            text-align: right;
+        }
+
+        .head {
+            background: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(240, 116, 71);
+        }
+
+        .conteudo {
+            background-color: #111;
+        }
+
+        .btnmaterias {
+            background-color:rgb(41, 101, 212);
+            border: solid, black 1px;
+            color: white;
+            padding: 10px 250px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 11px;
+            margin: 4px 70px;
+            cursor: pointer;
+
+        }
+
+        section {
+            border: 1px solid black;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+        <ul>
+            <li>
+                <a href="../Trabalho/index.html" class="active">Início</a>
+            </li>
+            <li>
+                <a href="../Trabalho/referencias.html">Referencias</a>
+            </li>
+            <li>
+                <a href="../Trabalho/Sobre.html">Sobre</a>
+            </li>
+            <li>
+                <a href="../Trabalho/Ajuda.html">Ajuda</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        </head>
+
+        <body>
+
+            <header>
+                <h2>Linguagens</h2>
+            </header>
+
+            <section>
+                <nav class="Materias">
+
+                </nav>
+
+                <article class="btnmaterias">
+                    <button type="button" class="btnmaterias">
+                        <a href="../Trabalho/Lingua Portuguesa.html">Língua Portuguesa</a>
+                        <button type="button" class="btnmaterias">
+                            <a href="../Trabalho/Literatura.html">Literatura</a>
+                            <button type="button" class="btnmaterias">
+                                <a href="../Trabalho/Lingua estrangeira.html">Língua Estrangeira</a>
+                                <button type="button" class="btnmaterias">
+                                    <a href="../Trabalho/Tecnologias da informação e comunicação.html">Tecnologias da Informação e comunicação</a>
+                </article>
+            </section>
+            <script language="JavaScript" class="javascript">
+                 
+                function confirmBox() {
+                if(confirm("Voce deseja mesmo ir para o Site do Google?")) {
+                location.href="http://google.com";}
+                }
+                </script>
+                
+                </p><form style="text-align: center">
+                Necessita de alguma coisa? Sinta-se a vontade de pesquisar!
+                <input value="Clique aqui para abri o site do Google" onclick="confirmBox()" type="button"> 
+                </form>
+            <footer>
+                <p>Trabalho final Tiago -_-</p>
+            </footer>
+
+        </body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Biblioteca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-image: url();
+            padding: 100px;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            border: 1px solid silver;
+
+        }
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: rgb(156, 151, 151);
+            padding: 20px;
+
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-image: url(livro_523462210.jpg);
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .Materias {
+            height: 700px;
+            color: #777;
+            width: 150px;
+        }
+
+        img {
+            text-align: right;
+        }
+
+        .head {
+            background: white;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(240, 116, 71);
+        }
+
+        .conteudo {
+            background-color: #111;
+        }
+
+        .btnmaterias {
+            background-color: rgb(56, 147, 170);
+            border: none;
+            color: white;
+            padding: 15px 300px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+        section {
+            border: 1px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+        <ul>
+            <li>
+                <a href="" class="active">Início</a>
+            </li>
+            <li>
+                <a href="../Trabalho/referencias.html">Referencias</a>
+            </li>
+            <li>
+                <a href="../Trabalho/Sobre.html">Sobre</a>
+            </li>
+            <li>
+                <a href="../Trabalho/Ajuda.html">Ajuda</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div>
+        <header>
+            <img src="../Trabalho/livros-5105780.jpg" height="200px" width="1000px">
+            <h2 style="background-color: rgb(72, 168, 101)">“Aprender é a única coisa que a mente nunca se cansa, nunca tem medo e nunca se arrepende”</h2>
+        </header>
+
+        <section>
+            <nav class="head">
+                <ul>
+                    <div class="container">
+                        <div class="head">
+                            <button type="button" class="btnmaterias">
+                                <a href="../Trabalho/Linguagem.html">Linguagens </a>
+                            </button>
+                            <button type="button" class="btnmaterias">
+                                <a href="../Trabalho/Exatas.html">Exatas</a>
+                            </button>
+                            <button type="button" class="btnmaterias">
+                                <a href="../Trabalho/Humanas.html">Humanas</a>
+                            </button>
+                            <button type="button" class="btnmaterias">
+                                <a href="../Trabalho/Natureza.html">Natureza</a>
+                            </button>
+
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Todas as materias em um só clique! </h1>
+                <p>Pesquise e estude o que e quando quiser com essa ferramenta de busca simples e facil!</p>
+                <p>"A alegria que se tem em pensar e aprender faz-nos pensar</p>
+                <p>e aprender ainda mais." Aristóteles
+                </p>
+
+            </article>
+        </section>
+
+        <footer>
+            <p>Trabalho final Tiago -_-</p>
+        </footer>
+
+</body>
+
+</html>
