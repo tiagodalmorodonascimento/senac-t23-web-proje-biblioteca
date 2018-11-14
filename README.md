@@ -1,6 +1,6 @@
 # Senac Projeto Bíblioteca
 
-Este projeto foi desenvolvido no curso de tecnico em informática do Senac.
+Este projeto foi desenvolvido no curso técnico em informática do Senac.
 
 ![](https://raw.githubusercontent.com/tiagodalmorodonascimento/senac-t23-web-proje-biblioteca/master/img.png)
 
