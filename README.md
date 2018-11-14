@@ -16,4 +16,4 @@ Este projeto foi desenvolvido no curso de tecnico em informática do Senac.
 - open the index.html
 
 ### how to use it
-celecione uma categoria (matéria) que deseja explorar.
+Selecione uma categoria (matéria) que deseja explorar.
